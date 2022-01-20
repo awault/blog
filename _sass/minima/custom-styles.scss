@@ -11,7 +11,13 @@
 @import "minima/fastpages-dracula-highlight"; 
 
 
-
+/*Change Title Font Color and Size*/
+.site-title, .site-title:visited {
+    font: Rock Salt;
+    font-size: 350%;
+    line-height: unset;
+    border: none;
+}
 
 /* Adjust Size of h1 Header */
 h1.post-title, h1#posts   { font-size: 250%;
