@@ -11,6 +11,12 @@
 @import "minima/fastpages-dracula-highlight"; 
 
 
+
+
+/* Adjust Size of h1 Header */
+h1.post-title, h1#posts   { font-size: 250%;
+}
+
 // Customize the width of the content area
 // can be set as "px" or "%"
 $content-width:    1200px;
