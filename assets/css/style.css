@@ -485,8 +485,9 @@ pre code { font-size: 15px !important; }
 
 p code { font-size: 19px; }
 
+/* Import a Rock Salt Font for Title */
 /*Change Title Font Color and Size*/
-.site-title, .site-title:visited { font-family: 'Rock Salt'; font-size: 350%; line-height: unset; border: none; }
+.site-title, .site-title:visited { font-family: 'Rock Salt'; font-size: 275%; line-height: unset; border: none; }
 
 /* Adjust Size of h1 Header */
 h1.post-title, h1#posts { font-size: 250%; }
