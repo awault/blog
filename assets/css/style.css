@@ -485,9 +485,11 @@ pre code { font-size: 15px !important; }
 
 p code { font-size: 19px; }
 
-/* Import a Rock Salt Font for Title */
+/* Import Rock Salt Font for Title */
 /*Change Title Font Color and Size*/
-.site-title, .site-title:visited { font-family: 'Rock Salt'; font-size: 275%; line-height: unset; border: none; }
+.site-title, .site-title:visited { font-family: 'Rock Salt'; font-size: 250%; line-height: unset; border: none; }
+
+header.site-header { border-top: 6px solid #424242; min-height: 90px; border-bottom: 2px solid #7a7a7a; line-height: unset; }
 
 /* Adjust Size of h1 Header */
 h1.post-title, h1#posts { font-size: 250%; }
