@@ -5,5 +5,5 @@ permalink: /Another Page/
 
 ---
 
-## Enter your new content here...
+## Enter your new content here....
 
