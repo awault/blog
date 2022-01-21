@@ -20,10 +20,11 @@
     font-size: 275%;
 }
 
+/*Customize site-header and border*/
 header.site-header {
-    border-top: 6px solid #424242;
+    border-top: 6px solid black;
     min-height: 90px;
-    border-bottom: 2px solid #7a7a7a;
+    border-bottom: 2px solid black;
     line-height: unset;
 }
 
