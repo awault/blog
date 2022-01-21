@@ -42,6 +42,13 @@ header.site-header {
 h1.post-title, h1#posts   { font-size: 250%;
 }
 
+
+/* Change size of post content */
+.post-content p, .post-content li {
+    font-size: 105%;
+    color: #515151;
+ }
+
 // Customize the width of the content area
 // can be set as "px" or "%"
 $content-width:    1200px;
