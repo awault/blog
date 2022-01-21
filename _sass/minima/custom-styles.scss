@@ -29,7 +29,7 @@ header.site-header {
 
 /*Add logo next to site title */
 .site-title::before {
-    content: url("/assets/logo75X75.png");
+    content: url("/images/logo75X75.png");
     display: inline-block;
     position: relative;
     margin-bottom: 0;
