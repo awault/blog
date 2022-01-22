@@ -490,7 +490,7 @@ p code { font-size: 19px; }
 .site-title, .site-title:visited { font-family: 'Rock Salt'; color: black; font-size: 250%; margin-top: 15px; line-height: unset; border: none; }
 
 /*Customize site-header and border*/
-header.site-header { border-top: none; min-height: 85px; border-bottom: 2px solid #636363; line-height: unset; }
+header.site-header { border-top: 4px solid #636363; min-height: 85px; border-bottom: 2px solid #636363; line-height: unset; }
 
 /* Adjust Size of h1 Header */
 h1.post-title, h1#posts { font-size: 175%; }
@@ -499,6 +499,6 @@ h1.post-title, h1#posts { font-size: 175%; }
 .post-content p, .post-content li { font-size: 105%; color: #515151; }
 
 /* Change navigation links in header */
-.page-link, .page-link:visited { font-weight: normal; font-size: 105%; }
+.page-link, .page-link:visited { font-weight: bold; font-size: 105%; }
 
 /*# sourceMappingURL=style.css.map */
