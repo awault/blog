@@ -34,7 +34,7 @@ $on-large:         1200px;
 
 /*Customize site-header and border*/
 header.site-header {
-    border-top: none;
+    border-top: 4px solid rgb(99, 99, 99);
     min-height: 85px;
     border-bottom: 2px solid rgb(99, 99, 99);
     line-height: unset;
@@ -52,7 +52,7 @@ h1.post-title, h1#posts   { font-size: 175%;
 
  /* Change navigation links in header */
  .page-link, .page-link:visited {
-    font-weight: normal;
+    font-weight: bold;
     font-size: 105%;
 }
 
