@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Another Page
+title:
 permalink: /Another Page/
 ---
 **Enter your new content here....**
