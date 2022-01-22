@@ -13,11 +13,21 @@
 /* Import Rock Salt Font for Title */
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
+// Customize the width of the content area
+// can be set as "px" or "%"
+$content-width:    1200px;
+$on-palm:          800px;
+$on-laptop:        1000px;
+$on-medium:        1200px;
+$on-large:         1200px;
+
+
 /*Change Title Font Color and Size*/
 .site-title, .site-title:visited {
     font-family: 'Rock Salt';
     color: black;
     font-size: 250%;
+    margin-top: 10%;
     line-height: unset;
     border: none;
 }
@@ -46,10 +56,5 @@ h1.post-title, h1#posts   { font-size: 175%;
     font-size: 105%;
 }
 
-// Customize the width of the content area
-// can be set as "px" or "%"
-$content-width:    1200px;
-$on-palm:          800px;
-$on-laptop:        1000px;
-$on-medium:        1200px;
-$on-large:         1200px;
+
+
