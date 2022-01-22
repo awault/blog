@@ -30,9 +30,10 @@ header.site-header {
 
 /*Add logo next to site title */
 .site-title::after {
-    content: url("/images/logo75X75.png");
+    content: url(images/logo75X75.png);
     display: inline-block;
     width: 75px;
+    height: 75px;
     position: relative;
     margin-bottom: 0;
     margin-right: 15px;
