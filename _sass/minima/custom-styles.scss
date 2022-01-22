@@ -17,13 +17,13 @@
 .site-title, .site-title:visited {
     font-family: 'Rock Salt';
     color: black;
-    font-size: 300%;
+    font-size: 250%;
 }
 
 /*Customize site-header and border*/
 header.site-header {
     border-top: none;
-    min-height: 120px;
+    min-height: 100px;
     border-bottom: 2px solid black;
     line-height: unset;
 }
@@ -40,7 +40,7 @@ header.site-header {
 
 
 /* Adjust Size of h1 Header */
-h1.post-title, h1#posts   { font-size: 250%;
+h1.post-title, h1#posts   { font-size: 200%;
 }
 
 
