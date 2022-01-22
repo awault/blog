@@ -493,9 +493,12 @@ p code { font-size: 19px; }
 header.site-header { border-top: none; min-height: 75px; border-bottom: 2px solid black; line-height: unset; }
 
 /* Adjust Size of h1 Header */
-h1.post-title, h1#posts { font-size: 200%; }
+h1.post-title, h1#posts { font-size: 175%; }
 
 /* Change size of post content */
 .post-content p, .post-content li { font-size: 105%; color: #515151; }
+
+/* Change navigation links in header */
+.page-link, .page-link:visited { font-family: 'Rock Salt'; font-weight: normal; font-size: 105%; }
 
 /*# sourceMappingURL=style.css.map */
