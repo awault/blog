@@ -18,12 +18,14 @@
     font-family: 'Rock Salt';
     color: black;
     font-size: 250%;
+    line-height: unset;
+    border: none;
 }
 
 /*Customize site-header and border*/
 header.site-header {
     border-top: none;
-    min-height: 75px;
+    min-height: 85px;
     border-bottom: 2px solid black;
     line-height: unset;
 }
@@ -40,7 +42,6 @@ h1.post-title, h1#posts   { font-size: 175%;
 
  /* Change navigation links in header */
  .page-link, .page-link:visited {
-    font-family: 'Rock Salt';
     font-weight: normal;
     font-size: 105%;
 }
