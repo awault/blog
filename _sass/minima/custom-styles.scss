@@ -29,7 +29,7 @@ header.site-header {
 }
 
 /* Adjust Size of h1 Header */
-h1.post-title, h1#posts   { font-size: 200%;
+h1.post-title, h1#posts   { font-size: 175%;
 }
 
 /* Change size of post content */
@@ -37,6 +37,13 @@ h1.post-title, h1#posts   { font-size: 200%;
     font-size: 105%;
     color: #515151;
  }
+
+ /* Change navigation links in header */
+ .page-link, .page-link:visited {
+    font-family: 'Rock Salt'
+    font-weight: normal;
+    font-size: 105%
+}
 
 // Customize the width of the content area
 // can be set as "px" or "%"
