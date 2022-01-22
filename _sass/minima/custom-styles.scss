@@ -30,7 +30,7 @@ header.site-header {
 
 /*Add logo next to site title */
 .site-title::after {
-    content: url(images/logo75X75.png);
+    content: <img src="https://github.com/awault/blog/blob/master/images/logo75X75.png?raw=true)">;
     display: inline-block;
     width: 75px;
     height: 75px;
