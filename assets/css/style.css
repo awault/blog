@@ -487,7 +487,7 @@ p code { font-size: 19px; }
 
 /* Import Rock Salt Font for Title */
 /*Change Title Font Color and Size*/
-.site-title, .site-title:visited { font-family: 'Rock Salt'; color: black; font-size: 250%; line-height: unset; border: none; }
+.site-title, .site-title:visited { font-family: 'Rock Salt'; color: black; font-size: 250%; margin-top: 10%; line-height: unset; border: none; }
 
 /*Customize site-header and border*/
 header.site-header { border-top: none; min-height: 85px; border-bottom: 2px solid black; line-height: unset; }
