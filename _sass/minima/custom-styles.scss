@@ -32,6 +32,7 @@ header.site-header {
 .site-title::after {
     content: url("/images/logo75X75.png");
     display: inline-block;
+    width: 75px;
     position: relative;
     margin-bottom: 0;
     margin-right: 15px;
