@@ -2,13 +2,11 @@
 /*--- IMPORT STYLES FOR FASTPAGES ---*/
 @import "minima/fastpages-styles";   
 
-
-
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
-@import "minima/fastpages-dracula-highlight"; 
+/*@import "minima/fastpages-dracula-highlight"; */
 
 /* Import Rock Salt Font for Title */
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
@@ -27,8 +25,8 @@ $on-large:         1200px;
     font-family: 'Rock Salt';
     color: black;
     font-size: 300%;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
     line-height: unset;
     border: none;
 }
@@ -43,7 +41,6 @@ header.site-header {
 /* Adjust Size of h1 Header */
 h1.post-title, h1#posts   { font-size: 250%;
 }
-
 
  /* Change navigation links in header */
  .page-link, .page-link:visited {
@@ -67,6 +64,6 @@ h1.post-title, h1#posts   { font-size: 250%;
     font-size: 95%;
 }
 
- /* --- Uncomment to remove footer --- */
+/* --- Uncomment below to remove footer --- */
 /* .site-footer {
     display: none;} */
