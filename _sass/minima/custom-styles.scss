@@ -41,7 +41,14 @@ header.site-header {
 }
 
 /* Adjust Size of h1 Header */
-h1.post-title, h1#posts   { font-size: 175%;
+h1.post-title, h1#posts   { font-size: 250%;
+}
+
+
+ /* Change navigation links in header */
+ .page-link, .page-link:visited {
+    font-weight: normal;
+    font-size: 110%;
 }
 
 /* Change size of post content */
@@ -50,11 +57,16 @@ h1.post-title, h1#posts   { font-size: 175%;
     color: #515151;
  }
 
- /* Change navigation links in header */
- .page-link, .page-link:visited {
-    font-weight: bold;
-    font-size: 105%;
+/*post-meta data*/
+ .post-meta {
+    font-size: 95%;
+ }
+
+/* Change site footer */
+ .site-footer {
+    font-size: 95%;
 }
 
-
-
+ /* --- Uncomment to remove footer --- */
+/* .site-footer {
+    display: none;} */
