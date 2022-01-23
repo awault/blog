@@ -28,15 +28,15 @@ $on-large:         1200px;
     color: black;
     font-size: 300%;
     margin-top: 15px;
+    margin-bottom: 10px;
     line-height: unset;
     border: none;
 }
 
 /*Customize site-header and border*/
 header.site-header {
-    border-top: 4px solid rgb(99, 99, 99);
-    min-height: 85px;
-    border-bottom: 2px solid rgb(99, 99, 99);
+    border-top: 5px solid #424242;
+    border-bottom: 1px solid rgb(99, 99, 99);
     line-height: unset;
 }
 
