@@ -2,44 +2,11 @@
   
     
         "post0": {
-            "title": "Test Title",
-            "content": ". Chapter 1 (Level 2) . Level 3 . Level 4 . A Bold Headline Testing out code blocks for my posts. . A list of items: . Apples | Oranges | Bananas | . a = &quot;Hello World&quot; print(a) . Hello World . Level 5 . Bold . Italic . Bold &amp; Italic . A short sentence with regular text. . Here is another code block . 👍 . .",
-            "url": "https://awault.github.io/blog/fastpages/jupyter/tech/2022/01/24/TestPostForFastPages.html",
-            "relUrl": "/fastpages/jupyter/tech/2022/01/24/TestPostForFastPages.html",
-            "date": " • Jan 24, 2022"
-        }
-        
-    
-  
-    
-        ,"post1": {
             "title": "Five Tips to Customize fastpages",
-            "content": "",
+            "content": "The fastpages platform is an excellent option for creating your own blog, hosted free on Github. The platform supports Jupyter notebooks, Word documents and Markdown, which is right in the wheelhouse for many analysts, data scientists and programmers. My knowledge of HTML and website development is limited and I&#39;ve just recently created my first blog on the fastpages platform. I discovered the learning curve to customize the platform can be steep, but I enjoy digging into new technology. I thought it would be beneficial to assemble a post to help others in their journey. . The basic setup for fastpages is straightforward, so I&#39;m not going to spend any time on that here. If you are reading this post, you have probably already setup a blog on the fastpages platform and searching for ways to personalize it. In this post, I will review some simple code that you can easily implement to personalize your blog. . On a side note, I will be using Visual Studio Code to modify the code in the following examples. If your using another editor, the process may be slightly different. . .",
             "url": "https://awault.github.io/blog/fastpages/jupyter/2022/01/24/Customizefastpages.html",
             "relUrl": "/fastpages/jupyter/2022/01/24/Customizefastpages.html",
             "date": " • Jan 24, 2022"
-        }
-        
-    
-  
-    
-        ,"post2": {
-            "title": "Title",
-            "content": "",
-            "url": "https://awault.github.io/blog/2022/01/23/Untitled.html",
-            "relUrl": "/2022/01/23/Untitled.html",
-            "date": " • Jan 23, 2022"
-        }
-        
-    
-  
-    
-        ,"post3": {
-            "title": "Test Title",
-            "content": ". Chapter 1 (Level 2) . Level 3 . Level 4 . A Bold Headline Testing out code blocks for my posts. . A list of items: . Apples | Oranges | Bananas | . a = &quot;Hello World&quot; print(a) . Hello World . Level 5 . Bold . Italic . Bold &amp; Italic . A short sentence with regular text. . Here is another code block .",
-            "url": "https://awault.github.io/blog/fastpages/jupyter/tech/2022/01/21/TestPostForFastPages.html",
-            "relUrl": "/fastpages/jupyter/tech/2022/01/21/TestPostForFastPages.html",
-            "date": " • Jan 21, 2022"
         }
         
     
