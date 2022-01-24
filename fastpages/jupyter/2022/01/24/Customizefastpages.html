@@ -84,7 +84,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      3 min read
     
 </span></p>
 
@@ -152,6 +152,90 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Add-a-Unique-Title-Font">Add a Unique Title Font<a class="anchor-link" href="#Add-a-Unique-Title-Font"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Adding a unique title font is one of the fastest ways to customize your blog. Personally, I prefer the informal charm of Rock Salt, but there are hundreds of other choices available from <a href="https://fonts.google.com/">Google Fonts</a>. If you desire something beyond the standard flavor, you can check out their offerings by following the link above.</p>
+<p>Once you have made your selection, there are only a few lines of code required to make the changes. I'll use the Rock Salt example from my blog, to demonstrate the implementation.</p>
+<p><strong>Select a title font from <a href="https://fonts.google.com/">Google Fonts</a></strong></p>
+<ul>
+<li><p>Click on the icon in the top right hand corner to view your selected families</p>
+</li>
+<li><p>Select the @import option and copy the corresponding code such as:</p>
+</li>
+</ul>
+
+<pre><code>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&amp;family=Rock+Salt&amp;display=swap');</code></pre>
+<p><strong>Open the repository and navigate to the <code>_sass\minima</code> directory</strong></p>
+<ul>
+<li>Open the <code>custom-styles.scss</code> file </li>
+</ul>
+<p><strong>Paste the code into the <code>custom-styles.scss</code> file</strong></p>
+
+<pre><code>/* Import Rock Salt Font for Title */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&amp;display=swap');</code></pre>
+<p><strong>Update the font-family specified for the <code>site-title</code> in the <code>custom-styles.scss</code> file</strong></p>
+
+<pre><code>/*Change Site Title Font Color and Size*/
+.site-title, .site-title:visited {
+    font-family: 'Rock Salt';
+    color: #f00;
+    font-size: 275%;
+}</code></pre>
+<p><strong>Save your updates (Ctrl + S) and commit the changes</strong></p>
+<p>Be aware that sometime it takes few minutes for the updates to flow through to your website, even after all of the workflows have completed successfully. So if your changes are not implemented immediately, sometimes all we need is just a little patience.</p>
+<p>There is a screen shot below to display the new code that should reside in the <code>custom-styles.scss</code> file, if you have followed the directions correctly. Many of the customizations I will discuss require accessing the <code>custom-styles.scss</code> file, so you should become very familiar with the <code>_sass\minima</code> directory.</p>
+<p>As a sidenote, you can also see the code required to customize the site-header in the image below. The size and borders of the header can be easily adjusted to accommodate the new font.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://github.com/awault/blog/blob/master/images/post_images/unique_font.png?raw=true" alt="unique_font_image" /></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Leonardo da Vinci proclaimed "Simplicity is the ultimate sophistication". If you are seeking a simple and elegant solution to remove the footer content, there are only two lines of code required(the comment is optional). Simply copy and paste the following lines of code to the <code>custom-styles.scss</code> file in the <code>_sass\minima</code> directory.</p>
+
+<pre><code>/* --- The following Code Removes the Footer --- */
+.site-footer {
+    display: none;}</code></pre>
+<p>Once this simple update is complete, save the update (Ctrl + S) and commit the changes. Voila... the footer is gone.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The options for personalizing your blog are nearly infinite, but that is a wrap for this post. You can check out more of the customizations I have implemented by reviewing the <a href="https://github.com/awault/blog">repository</a> for my blog on Github. If you have made it this far, thank you for taking the time, I hope you found this post helpful. If you noticed any errors or have any suggestions, please leave a comment.</p>
+<p>AA</p>
 
 </div>
 </div>
