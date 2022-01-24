@@ -148,34 +148,27 @@ window.onload = wrap_img;
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>One of the quickest ways to personalize your website is adding a unique font for the title. I prefer the informal charm of Rock Salt, but there are hundreds of other choices available from <a href="https://fonts.google.com/">Google Fonts</a>. If you desire something beyond the standard flavor, you can check out their offerings by following the link above.</p>
 <p>Once you have made your selection, there are just a few lines of code required to make the changes. I'll use the Rock Salt example from my blog, to demonstrate the implementation.</p>
-<ol>
-<li><p>Select a title font from <a href="https://fonts.google.com/">Google Fonts</a></p>
-<ul>
-<li><p>Click on the icon in the top right hand corner to view your selected families</p>
-</li>
-<li><p>Select the @import option and copy the corresponding code such as:</p>
-</li>
-</ul>
-</li>
-</ol>
+<p><strong>Select a title font from <a href="https://fonts.google.com/">Google Fonts</a></strong></p>
+
+<pre><code>- Click on the icon in the top right hand corner to view your selected families
+
+- Select the @import option and copy the corresponding code such as:
+
+
+</code></pre>
 
 <pre><code>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&amp;family=Rock+Salt&amp;display=swap');</code></pre>
-<ol>
-<li><p>Open the repository for your website in VS Code and navigate to the <code>_sass\minima</code> directory</p>
-<ul>
-<li>Open the <code>custom-styles.scss</code> file </li>
-</ul>
-</li>
-</ol>
-<ol>
-<li>Paste the code into the <code>custom-styles.scss</code> file</li>
-</ol>
+<p><strong>Open the repository for your website in VS Code and navigate to the <code>_sass\minima</code> directory</strong></p>
+
+<pre><code>- Open the `custom-styles.scss` file 
+
+
+</code></pre>
+<p><strong>Paste the code into the <code>custom-styles.scss</code> file</strong></p>
 
 <pre><code>/* Import Rock Salt Font for Title */
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&amp;display=swap');</code></pre>
-<ol>
-<li>Update the font-family specified for the <code>site-title</code> in the <code>custom-styles.scss</code> file</li>
-</ol>
+<p><strong>Update the font-family specified for the <code>site-title</code> in the <code>custom-styles.scss</code> file</strong></p>
 
 <pre><code>/*Change Site Title Font Color and Size*/
 .site-title, .site-title:visited {
@@ -183,9 +176,7 @@ window.onload = wrap_img;
     color: #f00;
     font-size: 275%;
 }</code></pre>
-<ol>
-<li>Save your updates (Ctrl + S) and commit the changes to the master branch of the repository</li>
-</ol>
+<p><strong>Save your updates (Ctrl + S) and commit the changes to the master branch of the repository</strong></p>
 <p>Be aware that sometime it takes few minutes for the updates to flow through to your website, even after all of the workflows have completed successfully. So if your changes are not implemented immediately, sometimes all we need is just a little patience.</p>
 <p>There is a screen shot below to display the new code that should reside in the <code>custom-styles.scss</code> file, if you have followed the directions correctly. Many of the customizations I will discuss require accessing the <code>custom-styles.scss</code> file, so you should become very familiar with the <code>_sass\minima</code> directory.</p>
 <p>As a sidenote, you can also see the code required to customize the site-header in the image below. The size and borders of the header can be easily adjusted to accommodate the new font.</p>
